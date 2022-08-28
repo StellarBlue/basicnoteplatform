@@ -14,8 +14,8 @@ body {
     border-radius: 5px;
     position: sticky;
     top: 10px;
-    margin-left: 1vh;
-    margin-top: -3vh;
+    margin-left: 0vh;
+    margin-top: -3.3vh;
 }
 
 .title1 {
@@ -31,8 +31,8 @@ body {
     overflow: hidden;
     border-radius: 10px;
     top: 10px;
-    margin-left: 11vh;
-    margin-top: -7.5vh;
+    margin-left: 12vh;
+    margin-top: -9.8vh;
   }
 
 .topbar {
@@ -71,7 +71,7 @@ body {
     padding: 10px;
     position: static;
     top: 10px;
-    height: 10vh;
+    height: 12vh;
 }
 
 .formq1 {
@@ -79,8 +79,8 @@ body {
     background: rgb(236, 236, 236);
     width: 40vh;
     height: 40vh;
-    margin-left: 25vh;
-    margin-top: 25vh;
+    margin: 40%;
+    margin-top: 15%;
     border-color: black;
     border-width: 1px; 
     position: fixed;
@@ -97,8 +97,8 @@ body {
     height: 3.5vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 10px;
-    margin-left: 11vh;
-    margin-top: -3vh;
+    margin-left: 12vh;
+    margin-top: -4vh;
     position: absolute;
 }
 
@@ -119,8 +119,8 @@ body {
 
 .backdim {
     background: rgba(0, 0, 0, 0.3);
-    height: 100vh;
-    width: 100vh;
+    height: 100%;
+    width: 100%;
     position: fixed;
     top: 0;
     visibility: visible;
