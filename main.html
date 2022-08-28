@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <table class="table2">
+            <tr>
+                <td>
+                    <table class="table1">
+                        <tr>
+                            <td> <h1 class="title1">Notetaking Platform</h1> </td>
+                        </tr>
+                    </table>
+                    <ul class="topbar1">
+                        <button class="topbar"><a href="main.html"  id="active">Reload</a></button>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><button class="createnote" onclick="showbackdim()">Create Note</button></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table class="backdim", id="backdim1">
+            <tr>
+                <td>
+                    <table class="formq1" id="form1">
+                        <tr>
+                            <td>
+                                <span class="close1" onclick="hidebackdim()">&times;</span>
+                                <h1 type="text" class="extitle">Title</h1>
+                                <input type="text", id="titleinput">
+                                <h3 class="exnote">Notes</h3>
+                                <textarea id="notesinput"></textarea>
+                                <button class="closebutton1" onclick="hidebackdim()">Cancel</button>
+                                <button class="submitnote" onclick="writeNote()">Submit</button>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <ul id="notelist">
+            <li>
+                <h2 id="lititle">Example Title</h2>
+                <h3 id="linotes">Example Notes</h3>
+            </li>
+        </ul>
+    </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
